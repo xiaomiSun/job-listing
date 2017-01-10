@@ -20,7 +20,7 @@ class JobsController < ApplicationController
               Job.published.recent
             end
   end
-  
+
   def new
     @job = Job.new
   end
