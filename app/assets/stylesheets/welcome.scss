@@ -1,3 +1,28 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.pageone{
+  height: 600px;
+}
+
+#apple{
+  background-image: url("https://ooo.0o0.ooo/2017/01/14/5879eb590e3ba.jpeg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo h1{
+  position: absolute;
+  color: yellow;
+  text-align: center;
+  margin-left: 80%;
+  margin-top: 20%;
+}
+
+.picture{
+  position: absolute;
+
+}
+
+.pagetwo{
+  height: 500px;
+  margin-top: 10px;
+}
