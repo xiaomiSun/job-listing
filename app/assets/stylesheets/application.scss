@@ -14,29 +14,28 @@
  *= require_self
  *= require font-awesome
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
- @import "font-awesome";
-
- .jumbotron {
-   background-image:url('https://media.execunet.com/m/dream-job-button-GEOFFREY-JAMES.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding-bottom: 450px;
- }
+.jumbotron {
+    background-image: url('https://media.execunet.com/m/dream-job-button-GEOFFREY-JAMES.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 450px;
+}
 
 .lead {
-  margin-top: 150px;
-  margin-bottom: 200px;
-  text-align: center;
-  color: white;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    text-align: center;
+    color: white;
 }
 
 .caption {
-  margin: 30px;
-  text-align: center;
-  top: 20px;
+    margin: 30px;
+    text-align: center;
+    top: 20px;
 }
 
 .thumbnail {
@@ -45,17 +44,15 @@
     margin-top: 60px;
 }
 
-.custab{
-  border: 1px solid #ccc;
-
-  padding: 5px;
-  margin: 5% 0;
-  box-shadow: 3px 3px 2px #ccc;
-
-  transition: 0.5s;
+.custab {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
 }
 
-.custab:hover{
-  box-shadow: 3px 3px 0px transparent;
-  transition: 0.5s;
+.custab:hover {
+    box-shadow: 3px 3px 0 transparent;
+    transition: 0.5s;
 }
